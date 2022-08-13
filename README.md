@@ -1,15 +1,6 @@
-# Requirements
+# What's in it
 
-* You are provided with an incomplete <Checkout /> component.
-* You are not allowed to add any additional HTML elements.
-* You are not allowed to use refs.
-
-* Demo video - You can view how the completed functionality should look at: https://drive.google.com/file/d/1o2Rz5HBOPOEp9DlvE9FWnLJoW9KUp5-C/view?usp=sharing
-
-* Once the <Checkout /> component is mounted, load the products using the getProducts function.
-* Once all the data is successfully loaded, hide the loading icon.
-* Render each product object as a <Product/> component, passing in the necessary props.
-* Implement the following functionality:
+* Following functionalities are implemented:
   * The add and remove buttons should adjust the ordered quantity of each product
   * The add and remove buttons should be enabled/disabled to ensure that the ordered quantity can’t be negative and can’t exceed the available count for that product.
   * The total shown for each product should be calculated based on the ordered quantity and the price
